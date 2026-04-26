@@ -18,3 +18,11 @@ env/
 # Runtime
 generated/
 *.log
+
+# Local Claude Code skills (not shared via git)
+.claude/skills/
+
+# Secrets / local env
+.env
+.env.local
+CLAUDE.md

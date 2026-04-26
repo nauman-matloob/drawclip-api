@@ -10,8 +10,8 @@ import cv2
 import numpy as np
 
 ASSETS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "assets")
-HAND_PATH = os.path.join(ASSETS_DIR, "drawing-hand.png")
-HAND_MASK_PATH = os.path.join(ASSETS_DIR, "hand-mask.png")
+HAND_PATH = os.path.join(ASSETS_DIR, "drawing-hand-drawclip.png")
+HAND_MASK_PATH = os.path.join(ASSETS_DIR, "hand-mask-drawclip.png")
 
 RATIO_RESOLUTIONS = {
     "16:9": (1920, 1080),
